@@ -9,6 +9,7 @@ body.faro {
 }
 body.ruta {
     background-color: aqua;
+    text-align: center;
 }
 .title {
     padding: 10px; 
