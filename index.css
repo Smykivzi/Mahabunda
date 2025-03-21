@@ -12,7 +12,6 @@ body.ruta {
 }
 .title {
     padding: 10px; 
-    text-align: center;
 }
 .container {
     display: flex;
