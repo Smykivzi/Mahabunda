@@ -3,7 +3,7 @@ body.faro {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(../images/12.jpg);
+    background: url(images/12.jpg);
     background-size: cover;
     background-position: center;
 }
