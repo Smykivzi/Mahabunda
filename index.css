@@ -69,9 +69,6 @@ footer {
 
 /* Адаптація для мобільних пристроїв */
 @media (max-width: 720px) {
-    body.faro {
-        background: url(../images/12.jpg);
-    }
     .container {
         flex-direction: column;
         align-items: center;
