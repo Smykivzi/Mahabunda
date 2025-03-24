@@ -59,6 +59,15 @@ p {
     height: auto;
 }
 
+ .thumbnail {
+    width: 300px; /* Розмір другого зображення */
+    height: 200px; /* Пропорції другого зображення */
+    object-fit: cover; /* Щоб не спотворювати зображення */
+    display: block;
+    margin: auto;
+}
+
+
     p {
         font-size: 16px;
         text-align: justify;
