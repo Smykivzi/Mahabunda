@@ -6,6 +6,7 @@ body.faro {
     background: url(../images/gu1.jpg);
     background-size: cover;
     background-position: center;
+    background-color: aquamarine;
 }
 
 body.ruta {
