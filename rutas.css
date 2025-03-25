@@ -40,31 +40,13 @@ p {
     body {
         padding: 10px;
     }
- .enlaces,
-.ilustration {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    /* Відстань між зображеннями */
-}
-
-.enlaces img,
-.ilustration img {
-    width: 45%;
-    /* Робимо так, щоб в одному ряду було по два зображення */
-    max-width: 300px;
-    /* Обмеження розміру */
-    height: auto;
-}
-
- .thumbnail {
+ 
+ .fotos {
     width: 300px; /* Розмір другого зображення */
     height: 200px; /* Пропорції другого зображення */
     object-fit: cover; /* Щоб не спотворювати зображення */
     display: block;
-    margin: auto;
+    margin: 5px;
 }
 
 
