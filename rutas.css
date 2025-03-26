@@ -1,4 +1,4 @@
- 
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0 auto;
@@ -34,22 +34,134 @@ h2 {
 p {
     text-indent: 12px;
 }
+/* .slider {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+} */
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+/* .slide img {
+    width: 100%;
+    display: block;
+} */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    /* Або за розміром зображень */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+/* Стилі для кнопок */
+/* button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+} */
+ button {
+     background-color: #007bff;
+     /* Синій колір кнопки */
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 30px;
+     /* Робить кнопку овальною */
+     cursor: pointer;
+     transition: background 0.3s;
+ }
+
+ button:hover {
+     background-color: #0056b3;
+     /* Темніший відтінок при наведенні */
+ }
+ 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    /* Додає відступ зверху */
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
 
 /* Адаптація для екранів 720px і менше */
 @media (max-width: 720px) {
     body {
         padding: 10px;
     }
- 
- .fotos {
-    width: 300px; /* Розмір другого зображення */
-    height: 200px; /* Пропорції другого зображення */
-    object-fit: cover; /* Щоб не спотворювати зображення */
-    display: block;
-    margin: 5px;
-}
 
-
+        .fotos {
+            width: 300px;
+            /* Розмір другого зображення */
+            height: 200px;
+            /* Пропорції другого зображення */
+            object-fit: cover;
+            /* Щоб не спотворювати зображення */
+            display: block;
+            margin: 5px;
+        }
     p {
         font-size: 16px;
         text-align: justify;
