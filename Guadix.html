@@ -13,24 +13,25 @@
     <a href="https://maps.app.goo.gl/q4284DR4D9RYpcidA">Google maps:</a>
     <a href="https://www.facebook.com/reel/503472112814589" target="_blank">Reel:</a>
 </Div>
-<Div class="ilustration">
-    <a href="images/gu1.jpg" title="Imagen 1" target="_blank">
-        <img src="images/gu1_1.jpg" class="fotos" width="145"></a>
-    <a href="images/gu2.jpg" title="Imagen 2" target="_blank">
-        <img src="images/gu2_1.jpg" class="fotos" width="145"></a>
-    <a href="images/gu3.jpg" title="Imagen 3" target="_blank">
-        <img src="images/gu3_1.jpg" class="fotos" width="145"></a>
-    <a href="images/gu4.jpg" title="Imagen 4" target="_blank">
-        <img src="images/gu4_1.jpg" class="fotos" width="110"></a>
-    <a href="images/gu5.jpg" title="Imagen 5" target="_blank">
-        <img src="images/gu5_1.jpg" class="fotos" width="145"></a>
-    <a href="images/gu6.jpg" title="Imagen 6" target="_blank">
-        <img src="images/gu6_1.jpg" class="fotos" width="110"></a>
-    <a href="images/gu7.jpg" title="Imagen 7" target="_blank">
-        <img src="images/gu7_1.jpg" class="fotos" width="145"></a>
-    <a href="images/gu8.jpg" title="Imagen 8" target="_blank">
-        <img src="images/gu8_1.jpg" class="fotos" width="145"></a>
-</Div>
+<div class="slider">
+
+    <div class="slider-track">
+
+        <button class="arrow arrow-left" onclick="prevSlide()">&#10094;</button>
+        <div class="slide"><img src="images/gu1.jpg" alt="Imagen 1"></div>
+        <div class="slide"><img src="images/gu2.jpg" alt="Imagen 2"></div>
+        <div class="slide"><img src="images/gu3.jpg" alt="Imagen 3"></div>
+        <div class="slide"><img src="images/gu4.jpg" alt="Imagen 4"></div>
+        <div class="slide"><img src="images/gu5.jpg" alt="Imagen 5"></div>
+        <div class="slide"><img src="images/gu6.jpg" alt="Imagen 6"></div>
+        <div class="slide"><img src="images/gu7.jpg" alt="Imagen 7"></div>
+        <div class="slide"><img src="images/gu8.jpg" alt="Imagen 8"></div>
+        <button class="arrow arrow-right" onclick="nextSlide()">&#10095;</button>
+
+    </div>
+
+</div>
+
 <p> 
 Гуадікс – це мальовниче місто в Андалусії, відоме своїми печерними будинками, які вирізані в глиняних пагорбах. Це одне
 з найстаріших поселень в Іспанії з багатою історією, що бере початок ще з римських часів.
@@ -46,10 +47,11 @@
 </p>
 <div class="form">
     <form method="post" action="mailto:smykivzi@gmail.com" enctype="text/plain">
-        <p class="texto">Comentarios:</p>
+        <p class="texto">Коментарі:</p>
         <textarea rows="5" cols="30" name="comentarios"></textarea>
-        <p><button type="submit">Enviar</button></p>
+        <p><button type="submit">Відправити</button></p>
     </form>
 </div>
+<script src="js/slider.js"></script>
 </body>
 </html>

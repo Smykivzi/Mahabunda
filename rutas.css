@@ -34,13 +34,7 @@ h2 {
 p {
     text-indent: 12px;
 }
-/* .slider {
-    width: 300px;
-    overflow: hidden;
-    position: relative;
-    margin: 20px auto;
-    border-radius: 10px;
-} */
+
 
 .slider-track {
     display: flex;
@@ -51,10 +45,7 @@ p {
     min-width: 100%;
 }
 
-/* .slide img {
-    width: 100%;
-    display: block;
-} */
+
 .slider {
     position: relative;
     width: 100%;
@@ -89,19 +80,7 @@ p {
 .arrow-right {
     right: 0;
 }
-/* Стилі для кнопок */
-/* button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 50%;
-} */
+
  button {
      background-color: #007bff;
      /* Синій колір кнопки */

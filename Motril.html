@@ -13,24 +13,25 @@
     <a href="https://maps.app.goo.gl/BT7L1BLUQoaq9fc38">Google maps:</a>
     <a href="https://www.facebook.com/reel/4059086154378040" target="_blank">Reel:</a>
 </Div>
-<Div class="ilustration">
-    <a href="images/mo1.jpg" title="Imagen 1" target="_blank">
-        <img src="images/mo1_1.jpg" class="fotos" width="145"></a>
-    <a href="images/mo2.jpg" title="Imagen 2" target="_blank">
-        <img src="images/mo2_1.jpg" class="fotos" width="145"></a>
-    <a href="images/mo3.jpg" title="Imagen 3" target="_blank">
-        <img src="images/mo3_1.jpg" class="fotos" width="110"></a>
-    <a href="images/mo4.jpg" title="Imagen 4" target="_blank">
-        <img src="images/mo4_1.jpg" class="fotos" width="145"></a>
-    <a href="images/mo5.jpg" title="Imagen 5" target="_blank">
-        <img src="images/mo5_1.jpg" class="fotos" width="145"></a>
-    <a href="images/mo6.jpg" title="Imagen 6" target="_blank">
-        <img src="images/mo6_1.jpg" class="fotos" width="145"></a>
-    <a href="images/mo7.jpg" title="Imagen 7" target="_blank">
-        <img src="images/mo7_1.jpg" class="fotos" width="110"></a>
-    <a href="images/mo8.jpg" title="Imagen 8" target="_blank">
-        <img src="images/mo8_1.jpg" class="fotos" width="145"></a>
-</Div>
+<div class="slider">
+
+    <div class="slider-track">
+
+        <button class="arrow arrow-left" onclick="prevSlide()">&#10094;</button>
+        <div class="slide"><img src="images/mo1.jpg" alt="Imagen 1"></div>
+        <div class="slide"><img src="images/mo2.jpg" alt="Imagen 2"></div>
+        <div class="slide"><img src="images/mo3.jpg" alt="Imagen 3"></div>
+        <div class="slide"><img src="images/mo4.jpg" alt="Imagen 4"></div>
+        <div class="slide"><img src="images/mo5.jpg" alt="Imagen 5"></div>
+        <div class="slide"><img src="images/mo6.jpg" alt="Imagen 6"></div>
+        <div class="slide"><img src="images/mo7.jpg" alt="Imagen 7"></div>
+        <div class="slide"><img src="images/mo8.jpg" alt="Imagen 8"></div>
+        <button class="arrow arrow-right" onclick="nextSlide()">&#10095;</button>
+
+    </div>
+
+</div>
+
 <p> 
 Мотріль- прибережне місто в провінції Гранада, Андалусія, Іспанія. Воно відоме своїми мальовничими пляжами, такими
 як Плая-де-Понієнте та Плая-Гранада, які приваблюють туристів чистими водами та розвиненою інфраструктурою. Місто також
@@ -52,10 +53,11 @@
 Це чудове місце для любителів природи, підводного світу та історичних локацій!</p>
 <div class="form">
     <form method="post" action="mailto:smykivzi@gmail.com" enctype="text/plain">
-        <p class="texto">Comentarios:</p>
+        <p class="texto">Коментарі:</p>
         <textarea rows="5" cols="30" name="comentarios"></textarea>
-        <p><button type="submit">Enviar</button></p>
+        <p><button type="submit">Відправити</button></p>
     </form>
 </div>
+<script src="js/slider.js"></script>
 </body>
 </html>
